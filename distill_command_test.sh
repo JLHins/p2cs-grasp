@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python test_distill.py --dump_dir /data/logs/dump_rs --checkpoint_path logs/log_rs_objpts/graspness_Distill_stu15k_rs_epoch10.tar --camera realsense --dataset_root /data/datasets/graspnet --num_point 15000 --eval --infer
